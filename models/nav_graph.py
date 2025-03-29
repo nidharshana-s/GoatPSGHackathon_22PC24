@@ -9,13 +9,17 @@ class NavGraph:
         self.build_graph()
 
     def build_graph(self):
+        
+        level_key = next(iter(self.data["levels"]))  
+        level_data = self.data["levels"][level_key]
+        
         # Add vertices (nodes)
-        vertices = self.data["levels"]["level1"]["vertices"]
+        vertices = level_data["vertices"]
         for idx, (x, y, attrs) in enumerate(vertices):
             self.graph.add_node(idx, pos=(x, y), **attrs)
 
         # Add lanes (edges)
-        lanes = self.data["levels"]["level1"]["lanes"]
+        lanes = level_data["lanes"]
         for start, end, attrs in lanes:
             self.graph.add_edge(start, end, **attrs)
 
