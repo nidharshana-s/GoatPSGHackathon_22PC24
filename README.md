@@ -79,3 +79,11 @@ The project follows a modular architecture:
 - `utils/`: Provides helper functions and utilities
 - `logs/`: Stores application logs for debugging and monitoring
 
+##Visual Output
+
+Output Window:
+![image](https://github.com/user-attachments/assets/82387dd8-d55b-4dd9-8245-9aec0887e241)
+
+Robots Moving
+![image](https://github.com/user-attachments/assets/82440a57-e60f-455f-958c-c2a60553cad4)
+
