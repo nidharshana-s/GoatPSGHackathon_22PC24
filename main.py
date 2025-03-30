@@ -5,7 +5,7 @@ from gui.fleet_gui import FleetGUI
 
 def main():
     app = QApplication(sys.argv)
-    nav_graph = NavGraph("nav_graph_1.json")  # Ensure this file exists
+    nav_graph = NavGraph("nav_graph_2.json")  # Ensure this file exists
     gui = FleetGUI(nav_graph)
     gui.show()
     sys.exit(app.exec_())

@@ -1,0 +1,11 @@
+2025-03-30 19:44:36,456 - Robot R1 spawned at location m7
+2025-03-30 19:44:47,023 - Robot R2 spawned at location m5
+2025-03-30 19:44:54,596 - Robot R3 spawned at location m4
+2025-03-30 19:44:59,463 - Robot R1 completed journey from m7 to m5 (Path Length: 3)
+2025-03-30 19:45:31,010 - Robot R4 spawned at location m4
+2025-03-30 19:45:32,596 - Robot R5 spawned at location m2
+2025-03-30 19:45:32,653 - Robot R3 completed journey from m4 to m6 (Path Length: 2)
+2025-03-30 19:45:42,773 - Robot R5 completed journey from m2 to  (Path Length: 1)
+2025-03-30 19:45:43,436 - Robot R1 completed journey from m7 to m3 (Path Length: 2)
+2025-03-30 19:46:10,061 - Robot R1 completed journey from m7 to m2 (Path Length: 2)
+2025-03-30 19:46:12,374 - Robot R5 completed journey from m2 to m1 (Path Length: 3)
