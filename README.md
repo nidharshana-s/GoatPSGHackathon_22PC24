@@ -87,3 +87,7 @@ Output Window:
 Robots Moving
 ![image](https://github.com/user-attachments/assets/82440a57-e60f-455f-958c-c2a60553cad4)
 
+Video Recording
+https://www.loom.com/share/5836ad133d9c44469cea88434f2102f2?sid=38c4d5ac-d700-4142-bd85-5e3ead2b9871
+
+
