@@ -50,6 +50,19 @@ class GraphView(QGraphicsView):
                 self._add_vertex_label(x, y, attrs["name"])
                 
             print(f"Vertex {node} created at ({x:.2f}, {y:.2f})")  # Debug output
+        
+        # Add path preview
+        if hasattr(self, 'preview_path'):
+            for i in range(len(self.preview_path)-1):
+                start = self.preview_path[i]
+                end = self.preview_path[i+1]
+                line = QGraphicsLineItem(
+                    start.x(), start.y(),
+                    end.x(), end.y()
+                )
+                line.setPen(QPen(Qt.green, 1, Qt.DashLine))
+                line.setZValue(5)
+                self.scene.addItem(line)
 
     def _create_vertex(self, node_id, x, y, attrs):
         """Creates a properly configured vertex item"""
